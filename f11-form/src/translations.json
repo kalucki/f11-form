@@ -1,6 +1,7 @@
 {
   "GB": {
     "translation": {
+      "Form": "Support Form",
       "Submit": "Submit",
       "Name": "Name",
       "Email": "Email Address",
@@ -17,12 +18,13 @@
       "Choose Topic": "Choose Topic",
       "Description placeholder": "Describe your problem",
       "Example": "ex. ",
-      "Request sent": "Your request has been succesfully sent"
-
+      "Request sent": "Your request has been succesfully sent",
+      "Support": "Every support ticket takes about 24h to process. Provided email will be used for further contact."
     }
   },
   "DE": {
     "translation": {
+      "Form": "Supportformular",
       "Submit": "Absenden",
       "Name": "Name",
       "Email": "Emailadresse",
@@ -39,7 +41,8 @@
       "Choose Topic": "Thema auswählen",
       "Description placeholder": "Beschreiben Sie Ihr Problem",
       "Example": "z. B. ",
-      "Request sent": "Ihre Anfrage wurde erfolgreich gesendet"
+      "Request sent": "Ihre Anfrage wurde erfolgreich gesendet",
+      "Support": "Every support ticket takes about 24h to process. Provided email will be used for further contact."
     }
   }
 }

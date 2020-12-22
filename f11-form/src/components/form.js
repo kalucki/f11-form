@@ -77,30 +77,29 @@ const Form = () => {
     }
     return (
         <div className="wrapper">
+                <div className="flags-container">
+                    <img
+                        onClick={(e) => onLanguageChange(e)}
+                        id="GB"
+                        className={`flag-icon ${activeLanguage === "GB" ? "active-lang" : "inactive-lang"}`}
+                        alt="English"
+                        title="English"
+                        src="http://purecatamphetamine.github.io/country-flag-icons/3x2/GB.svg"/>
+                    <img
+                        onClick={(e) => onLanguageChange(e)}
+                        id="DE"
+                        title="Deutsch"
+                        className={`flag-icon ${activeLanguage === "DE" ? "active-lang" : "inactive-lang"}`}
+                        alt="Deutsch"
+                        src="http://purecatamphetamine.github.io/country-flag-icons/3x2/DE.svg"/>
+                </div>
             {sentMsgVisible && <div className="notification succes-bar is-success">
                 <button onClick={handleCloseWindow} className="delete"></button>
                 {t('Request sent')}
             </div>}
             <div className="main-form-container">
-                <div>
-                    <div className="flags-container">
-                        <img
-                            onClick={(e) => onLanguageChange(e)}
-                            id="GB"
-                            className={`flag-icon ${activeLanguage === "GB" ? "active-lang" : "inactive-lang"}`}
-                            alt="English"
-                            title="English"
-                            src="http://purecatamphetamine.github.io/country-flag-icons/3x2/GB.svg"/>
-                        <img
-                            onClick={(e) => onLanguageChange(e)}
-                            id="DE"
-                            title="Deutsch"
-                            className={`flag-icon ${activeLanguage === "DE" ? "active-lang" : "inactive-lang"}`}
-                            alt="Deutsch"
-                            src="http://purecatamphetamine.github.io/country-flag-icons/3x2/DE.svg"/>
-                    </div>
-
-                </div>
+                <h1 className="title is-bold">{t('Form')}</h1>
+                <span className="subtitle support-sub">{t('Support')}</span>
                 <form onSubmit={formik.handleSubmit} className="form-wrapper" action="/thanks">
                     <div className="field">
                         <label className="label" htmlFor="name">{t('Name')}</label>
