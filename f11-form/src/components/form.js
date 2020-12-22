@@ -77,6 +77,10 @@ const Form = () => {
     }
     return (
         <div className="wrapper">
+            {sentMsgVisible && <div className="notification succes-bar is-success">
+                <button onClick={handleCloseWindow} className="delete"></button>
+                {t('Request sent')}
+            </div>}
                 <div className="flags-container">
                     <img
                         onClick={(e) => onLanguageChange(e)}
@@ -93,10 +97,7 @@ const Form = () => {
                         alt="Deutsch"
                         src="http://purecatamphetamine.github.io/country-flag-icons/3x2/DE.svg"/>
                 </div>
-            {sentMsgVisible && <div className="notification succes-bar is-success">
-                <button onClick={handleCloseWindow} className="delete"></button>
-                {t('Request sent')}
-            </div>}
+
             <div className="main-form-container">
                 <h1 className="title is-bold">{t('Form')}</h1>
                 <span className="subtitle support-sub">{t('Support')}</span>
