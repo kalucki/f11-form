@@ -1,0 +1,45 @@
+{
+  "GB": {
+    "translation": {
+      "Submit": "Submit",
+      "Name": "Name",
+      "Email": "Email Address",
+      "Topic": "Topic",
+      "Description": "Description",
+      "Required": "Required",
+      "Version": "Version Number",
+      "Telephone": "Phone Number",
+      "Software errors": "Software Errors",
+      "General": "General Inquiry",
+      "Return call": "Return Call",
+      "Invalid Email": "Invalid email address",
+      "Wrong Format": "Wrong format, use proper format ex. 1.0.1",
+      "Choose Topic": "Choose Topic",
+      "Description placeholder": "Describe your problem",
+      "Example": "ex. ",
+      "Request sent": "Your request has been succesfully sent"
+
+    }
+  },
+  "DE": {
+    "translation": {
+      "Submit": "Absenden",
+      "Name": "Name",
+      "Email": "Emailadresse",
+      "Topic": "Themenbereich",
+      "Description": "Beschreibung",
+      "Required": "Pflichtfeld",
+      "Version": "Versionsnummer ",
+      "Telephone": "Telefonnummer",
+      "Software errors": "Softwarefehler",
+      "Return call": "Rückruf",
+      "General": "Allgemeine Anfrage",
+      "Invalid Email": "Ungültige E-Mail Adresse",
+      "Wrong Format": "Falsches Format, richtiges Format verwenden, z. B. 1.0.1",
+      "Choose Topic": "Thema auswählen",
+      "Description placeholder": "Beschreiben Sie Ihr Problem",
+      "Example": "z. B. ",
+      "Request sent": "Ihre Anfrage wurde erfolgreich gesendet"
+    }
+  }
+}
